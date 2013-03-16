@@ -1,6 +1,7 @@
-<h1> MapsDemo </h1>
-<p> Updates a users location whenever he moves more than 1000m from the last determined location by dropping a pin on the map and recentering the MapView.</p>
+MapsDemo
+==
+Updates a users location whenever he moves more than 1000m from the last determined location by dropping a pin on the map and recentering the MapView.
 
-<p> Created to familiarize myself with iOS MapKit and CoreLocation packages (adapted from a HW assignment by the University of Pennsylvania's Spring 2013 Cis195 iPhone Development course)</p>
+Created to familiarize myself with iOS MapKit and CoreLocation packages (adapted from a HW assignment by the University of Pennsylvania's Spring 2013 Cis195 iPhone Development course)
 
-<p> By: Boris Treskunov </p>
+By: Boris Treskunov 
