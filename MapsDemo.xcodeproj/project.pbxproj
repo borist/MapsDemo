@@ -307,6 +307,7 @@
 				A132013D16F3E2DF0071474A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

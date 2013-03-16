@@ -22,12 +22,14 @@
                             <constraint firstItem="4e2-XS-KJu" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="QSc-ur-D2J"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="XQx-sr-Ng9"/>
                     <connections>
                         <outlet property="mapView" destination="4e2-XS-KJu" id="Oel-46-XZt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="370" y="189"/>
         </scene>
     </scenes>
     <classes>
