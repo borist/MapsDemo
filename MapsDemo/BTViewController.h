@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
 
-@interface BTViewController : UIViewController
+@interface BTViewController : UIViewController <CLLocationManagerDelegate>
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end

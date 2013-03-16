@@ -18,6 +18,8 @@
 		A132013216F3E2DF0071474A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A132013116F3E2DF0071474A /* Default-568h@2x.png */; };
 		A132013516F3E2DF0071474A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A132013316F3E2DF0071474A /* MainStoryboard.storyboard */; };
 		A132013816F3E2DF0071474A /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A132013716F3E2DF0071474A /* BTViewController.m */; };
+		A132013F16F3E8240071474A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A132013E16F3E8230071474A /* CoreLocation.framework */; };
+		A132014116F3E82E0071474A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A132014016F3E82E0071474A /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		A132013416F3E2DF0071474A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A132013616F3E2DF0071474A /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
 		A132013716F3E2DF0071474A /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
+		A132013E16F3E8230071474A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A132014016F3E82E0071474A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A132014116F3E82E0071474A /* MapKit.framework in Frameworks */,
+				A132013F16F3E8240071474A /* CoreLocation.framework in Frameworks */,
 				A132011C16F3E2DF0071474A /* UIKit.framework in Frameworks */,
 				A132011E16F3E2DF0071474A /* Foundation.framework in Frameworks */,
 				A132012016F3E2DF0071474A /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +62,8 @@
 		A132010F16F3E2DE0071474A = {
 			isa = PBXGroup;
 			children = (
+				A132014016F3E82E0071474A /* MapKit.framework */,
+				A132013E16F3E8230071474A /* CoreLocation.framework */,
 				A132012116F3E2DF0071474A /* MapsDemo */,
 				A132011A16F3E2DF0071474A /* Frameworks */,
 				A132011916F3E2DF0071474A /* Products */,
